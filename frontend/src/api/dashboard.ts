@@ -1,5 +1,5 @@
-import api from "./index";
-import { Monitor, Agent } from "../../types";
+import api from "./client";
+import { Monitor, Agent } from "../types";
 
 // 获取仪表盘数据
 export const getDashboardData = async (): Promise<{
